@@ -361,10 +361,7 @@ RUN \
 
 ### Release Stage
 FROM        base AS release
-MAINTAINER  Julien Rottenberg <julien@rottenberg.info>
-
-CMD         ["--help"]
-ENTRYPOINT  ["ffmpeg"]
+MAINTAINER  zsnmwy <szlszl35622@gmial.com>
 
 COPY --from=build /usr/local /usr/local
 
